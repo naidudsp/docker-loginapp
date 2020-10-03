@@ -23,5 +23,5 @@ deploy:
     bucket_path: docker-loginapp
     on:
         branch: master
-    access_key_id: AKIARUSMGCPB7ELPPQON
-    secret_acces_key: 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
+    access_key_id: $AWS_ACCESS_ID
+    secret_acces_key: $AWS_SECRET_KEY

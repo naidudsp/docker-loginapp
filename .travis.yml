@@ -19,7 +19,7 @@ deploy:
     region: ap-south-1
     app: docker-loginapp
     env: DockerLoginapp-env
-    bucket_name: elasticbeanstalk-ap-south-1-679022722124
+    bucket_name: elasticbeanstalk-ap-south-1-112902673347
     bucket_path: docker-loginapp
     on:
         branch: master
